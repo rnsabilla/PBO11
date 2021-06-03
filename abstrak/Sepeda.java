@@ -8,10 +8,10 @@ public class Sepeda extends Kendaraan {
     public void jalankan(){
         boolean isAuto = true;
         if (isAuto == true){
-            System.out.println("Berjalan Sendiri");
+            System.out.println("Sepeda Otomatis");
         }
         else {
-            System.out.println(" . ");
+            System.out.println("Sepeda Kayuh");
         }
     }
 
